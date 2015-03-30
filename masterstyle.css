@@ -1,0 +1,135 @@
+body{
+	/*background:rgb(5,192,122);*/ /* option - green */
+	background:rgb(220,220,220);
+	font-family: arial;
+}
+/*==========================================================================
+mainbar positioning
+===========================================================================*/
+.mainbar{
+	height:55px;
+	background:rgb(5,192,122);
+	width:100%;
+}
+.mainbarline{
+	position:relative;
+	top:-20px;
+	height:5px;
+	background:rgb(50,50,50);
+	width:100%;
+}
+/* VERSION 2 below */
+.mainbar2{
+	width:100%;
+	background:rgb(5,192,122);
+	width:100%;
+}
+.mainbarline2{
+	height:5px;
+	background:rgb(50,50,50);
+	width:100%;
+}
+.mainbar-links{
+	float:right;
+	padding-top:13px;
+	padding-right:3%;
+	color:#fff;
+}
+/*=========================================================================*/
+.pages{
+	font-family: arial;
+}
+.stats{
+	
+}
+#stats{
+	text-align: center;
+}
+#hstats{
+	text-align: center;
+	font-weight: bold;
+}
+#reg-sign{
+	position:relative;
+	top:-40px;
+	padding-left:85%;
+}
+#reg-sign-link{
+	text-decoration:none;
+	font-size:15px;
+	color:#fff;
+}
+#pipe-name-bar{
+	position:relative;
+	top:-40px;
+	padding-left:80%;
+	color:#fff;
+}
+#pickreg{
+	padding-left: 20px;
+}
+/*
+================================================================================
+fixed footer position
+================================================================================
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+   background:rgb(5,192,122);
+
+   //activate this if you want the fixed footer bottom positioning and remove .clearfooter and #footer2
+}*/
+#footer2 {
+   height: 150px;
+   position: relative;
+   background:rgb(50,50,50);
+   color:#fff;
+   font-family:arial;
+   font-size:10px;
+   text-align:center;
+}
+.clearfooter {
+   height: 100px;
+   clear: both;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+/* IE 6 */
+* html #footer2 {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+.endfooter{
+	height:10px;
+	background:rgb(5,192,122);
+}
+/*
+================================================================================
+register page error messages
+================================================================================
+*/
+.errormess-success{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	color:rgb(5,192,122);
+}
+.errormess-fail{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	color:#f00;
+}
+.homelink{
+	color:#fff;
+}
+.homelink.hover{
+	color: #fff;
+}
